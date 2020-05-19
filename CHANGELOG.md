@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.3](https://github.com/little-wolf-studio/kube-auth-proxy/compare/v1.1.2...v1.1.3) (2020-05-19)
+
+
+### Build System
+
+* update source repository ([e5b1dd1](https://github.com/little-wolf-studio/kube-auth-proxy/commit/e5b1dd1))
+
+
+
 ### [1.1.2](https://github.com/d-cs/kube-auth-proxy/compare/v1.1.1...v1.1.2) (2020-05-19)
 
 
