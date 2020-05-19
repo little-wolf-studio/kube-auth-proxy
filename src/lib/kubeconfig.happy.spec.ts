@@ -11,8 +11,9 @@ test.before(
     const kc = new KubeConfig();
 
     kc.loadFromDefault();
+    const cluster = kc.getCurrentCluster();
 
-    t.context.server = await kc.makeHttpProxy();
+    t.context.server = await kc.makeHttpProxy(cluster);
     t.context.baseUrl = await listen(t.context.server);
   }
 );

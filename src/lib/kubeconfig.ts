@@ -4,8 +4,7 @@ import https from 'https';
 import { URL } from 'url';
 
 export class KubeConfig extends K8sKubeConfig {
-  public async makeHttpProxy() {
-    const cluster = this.getCurrentCluster();
+  public async makeHttpProxy(cluster) {
     if (!cluster) {
       throw new Error('No active cluster!');
     }
